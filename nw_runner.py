@@ -1,11 +1,12 @@
 # Establish connection between Python and SQL
 import pyodbc
+from nw_products import Products
 
 # Establish connection using PYODBC
-server = "_"
-database = "_"
-username = "_"
-password = "_"
+server = "__"
+database = "__"
+username = "__"
+password = "__"
 docker_Northwind = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
 
 # Check if connection is validated and cursor object created

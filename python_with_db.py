@@ -2,10 +2,10 @@
 import pyodbc
 
 # Establish connection using PYODBC
-server = "18.135.103.95"
-database = "Northwind"
-username = "SA"
-password = "Passw0rd2018"
+server = "__"
+database = "__"
+username = "__"
+password = "__"
 docker_Northwind = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
 
 # Check if connection is validated and cursor object created
